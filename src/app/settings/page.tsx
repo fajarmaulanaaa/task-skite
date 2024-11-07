@@ -1,5 +1,9 @@
-import SettingPages from '@/components/pages/SettingPages'
+import dynamic from 'next/dynamic'
 import React from 'react'
+
+const SettingPages = dynamic(
+    () => import('@/components/pages/SettingPages'),
+    { ssr: false })
 
 const Page = () => {
     return (

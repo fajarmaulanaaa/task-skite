@@ -1,4 +1,3 @@
-// import ProductPages from '@/components/pages/ProductPages'
 import dynamic from 'next/dynamic'
 import React from 'react'
 
@@ -7,8 +6,6 @@ const ProductPages = dynamic(
     { ssr: false })
 export default function Page() {
     return (
-        // <ProtectedRoute>
-        // </ProtectedRoute>
         <ProductPages />
     )
 }

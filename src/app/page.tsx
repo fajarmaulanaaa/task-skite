@@ -1,5 +1,4 @@
 
-// import DashboardPages from "@/components/pages/DashboardPages";
 import dynamic from "next/dynamic";
 import React from "react";
 
